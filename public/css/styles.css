@@ -1,0 +1,86 @@
+body{
+     font-family: "Montserrat, Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+     background: url('../img/bg.jpg') no-repeat center center fixed;
+     height: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-size: cover;
+     -o-background-size: cover;
+   }
+}
+/* Footer CSS */
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+ #social-fb, #social-tw, #social-yt, #social-in {
+     color: #FFF;
+ }
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-yt:hover {
+     color: #d34836;
+ }
+ #social-in:hover {
+     color: #f39c12;
+ }
+/* Navigation CSS */
+.navbar-default .navbar-nav > li.dropdown:hover > a,
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: #000;
+    color: #FFF;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.navbar-brand{
+    margin: 0;
+    padding:0;
+}
+.navbar-brand img{
+     max-height: 100%;
+}
+.navbar-custom{
+     background-color: black;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+/* Page CSS */
+.container-donate{
+     width: 100%;
+}
+.donation-text{
+     text-align: center;
+     color:#000;
+     height:200px;
+}
+.vertical-align{
+     position:absolute;
+     top:30%;
+     transform: translate(-50%);
+}
+@@media only screen and (min-width: 40em){
+     .donation-text{
+          height:500px;
+     }
+}
